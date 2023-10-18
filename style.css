@@ -16,6 +16,23 @@ body
     min-height: 100vh;
     background: #111;
 }
+h1
+{
+    color: #fff;
+    text-align: center;
+}
+h2
+{
+       
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+    animation: animate 8s linear infinite;
+}
+     
 .scroll
 {
     position: relative;
